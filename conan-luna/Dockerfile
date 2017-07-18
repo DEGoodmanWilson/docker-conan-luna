@@ -2,7 +2,7 @@ FROM degoodmanwilson/cppbase-gcc54
 
 MAINTAINER D.E. Goodman-Wilson
 
-RUN ls -al
+RUN ls
 RUN conan remote remove conan-center
 RUN conan remote remove conan-transit
 RUN conan remote add DEGoodmanWilson https://api.bintray.com/conan/degoodmanwilson/opensource
