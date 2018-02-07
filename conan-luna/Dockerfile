@@ -15,4 +15,4 @@ RUN conan install libmicrohttpd/0.9.51@DEGoodmanWilson/stable --build
 RUN conan install libmagic/5.29@DEGoodmanWilson/testing --build
 RUN conan install base64/1.0.2@DEGoodmanWilson/stable --build
 
-RUN conan install luna/[~=4.0]@DEGoodmanWilson/stable --build
+RUN conan install luna/[~=4.0]@DEGoodmanWilson/stable --build=missing
