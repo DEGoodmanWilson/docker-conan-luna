@@ -9,4 +9,4 @@ RUN pip install conan
 RUN export LD_LIBRARY_PATH="/usr/local/lib"
 RUN sudo ldconfig
 
-RUN conan config set settings_defaults.compiler.libcxx=libstdc++11
+RUN conan config set settings_defaults.compiler.libcxx=libstdc++14
